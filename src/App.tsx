@@ -1,7 +1,13 @@
+// jsx -------------------
+import NavBtn from "./components/nav/navBtn";
+import ShopTitle from "./components/nav/shopTitle";
 function App() {
   return (
     <>
-      <h1 className=" ">hello world</h1>
+      <header>
+        <ShopTitle className="" text="zakaria shop" />
+        <nav></nav>
+      </header>
     </>
   );
 }
